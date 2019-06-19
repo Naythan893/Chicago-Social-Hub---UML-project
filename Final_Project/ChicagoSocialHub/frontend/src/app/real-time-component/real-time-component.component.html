@@ -1,0 +1,25 @@
+<button mat-raised-button color="primary" routerLink="/list_of_stations" style="margin:10px">Go back <mat-icon>keyboard_backspace</mat-icon></button>
+<button mat-raised-button color="primary" routerLink="/find" style="margin:10px">Find Another Place   <mat-icon>search</mat-icon></button>
+<div style="margin:10px">
+
+  <select (change)="onChange($event.target.value)" style="background-color: beige;">
+    <option value= 0 >1 hour</option>
+    <option value= 1 >24 hours</option>
+    <option value= 2 >7 days</option>
+  </select>
+  <label class="checkbox-inline">
+    <input type="checkbox" [checked]="sma_1" [(ngModel)]="sma_1" (change)="SMAFunction('sma_blue')"> SMA-1hr
+  </label>
+  &nbsp; &nbsp;&nbsp;
+
+  <label class="checkbox-inline">
+    <input type="checkbox" [checked]="sma_24" [(ngModel)]="sma_24" (change)="SMAFunction('sma_red')"> SMA-24hr
+  </label>
+  &nbsp; &nbsp;&nbsp;
+</div>
+<br><br><br>
+<p>
+
+  <svg id="chart"></svg>
+
+</p>

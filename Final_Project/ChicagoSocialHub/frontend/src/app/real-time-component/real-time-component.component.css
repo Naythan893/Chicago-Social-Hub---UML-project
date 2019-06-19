@@ -1,0 +1,29 @@
+.axis {
+		font-family: sans-serif;
+		fill: #d35400;
+		font-size: 12px;
+	}
+.line {
+	fill: none;
+	stroke: #f1c40f;
+	stroke-width: 3px;
+}
+.smoothline {
+	fill: none;
+	stroke: #e74c3c;
+	stroke-width: 3px;
+}
+.area {
+	fill: #e74c3c;
+	opacity: 0.5;
+}
+.circle {
+	stroke: #e74c3c;
+	stroke-width: 3px;
+	fill: #FFF;
+}
+.grid {
+	stroke: #DDD;
+	stroke-width: 1px;
+	fill: none;
+}

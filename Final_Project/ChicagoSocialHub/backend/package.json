@@ -1,0 +1,22 @@
+{
+  "name": "chicagosocialhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "elasticsearch": "^15.4.1",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "nodemon": "^1.18.10",
+    "pg": "^7.9.0",
+    "pg-format": "^1.0.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

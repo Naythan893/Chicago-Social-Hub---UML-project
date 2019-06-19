@@ -1,0 +1,42 @@
+<div>
+  <br>
+  <mat-card>
+    <button mat-raised-button color="primary" routerLink="/home">
+      Home
+      &nbsp; &nbsp; &nbsp;
+      <mat-icon>home</mat-icon>
+    </button>
+    &nbsp; &nbsp;&nbsp;
+
+
+    <button mat-raised-button color="primary" [matMenuTriggerFor]="menu">Time Range<mat-icon>arrow_drop_down</mat-icon>
+      </button>
+    <mat-menu #menu="matMenu">
+      <button (click)="show_line_chart(1)" mat-menu-item>1 Hour</button>
+      <button (click)="show_line_chart(24)" mat-menu-item>24 Hours</button>
+      <button (click)="show_line_chart(168)" mat-menu-item>7 Days</button>
+    </mat-menu>
+
+    &nbsp; &nbsp;&nbsp;
+
+    <button class="back" mat-raised-button color="primary" routerLink="/home">
+      Back
+      &nbsp; &nbsp; &nbsp;
+      <mat-icon>keyboard_backspace</mat-icon>
+    </button>
+    &nbsp; &nbsp;&nbsp;
+    <br><br>
+    <mat-divider></mat-divider>
+    <br>
+    <h2 class="title" style="align-items: center">{{ title }}</h2>
+   
+  </mat-card>
+ 
+</div>
+
+  <agm-map class="mapbox" [latitude]='latitude' [longitude]='longitude' [zoom]="zoom"
+  [mapTypeId]='mapType' (mapReady)="onMapLoad($event)">
+  <!-- (mapReady)="onMapLoad($event)" -->
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+
+</agm-map>

@@ -1,0 +1,107 @@
+
+ button.b1.mat-raised-button.mat-primary{
+    position:fixed;
+    top: 50%;
+    left: 40%;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    border-radius: 15px 50px 30px; 
+    display: flexbox;
+
+    
+} 
+ 
+
+ button.b2.mat-raised-button.mat-primary{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px 50px 30px; 
+    display: flexbox;
+
+} 
+
+
+/* 
+.containerbutton{
+    background-image: url('https://static1.squarespace.com/static/51a103d2e4b0697b9ba9ad4b/t/5574f175e4b0061829d9a093/1433727355864/?format=2500w');
+} */
+
+/* 
+  .containerbutton  .b1{
+    position: absolute; 
+    float: left;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+
+  
+  }
+
+  .containerbutton .b2{
+    position: relative; 
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+
+  
+  } */
+
+
+
+/* .container .Divvyheatmap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .places{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  } */

@@ -1,0 +1,12 @@
+.back{
+    float:right;
+}
+
+h2.title{
+    text-align: center;
+}
+
+.agm-map-container-inner.sebm-google-map-container-inner{
+    display: flexbox;
+
+}

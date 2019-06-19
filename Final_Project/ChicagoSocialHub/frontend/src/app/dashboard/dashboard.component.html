@@ -1,0 +1,10 @@
+<br>
+<div id="bardiv">
+    <!-- <button mat-raised-button color="primary" (click)="Showchart()" style="margin:10px" >View Bar Chart</button>
+    <button  mat-raised-button color="primary" (click)="hidechart()" style="margin:10px">Hide Bar Chart</button> -->
+    <button mat-raised-button color="primary" routerLink="/list_of_places" style="margin:10px">Go back <mat-icon>keyboard_backspace</mat-icon> </button>
+    <button mat-raised-button color="primary" routerLink="/find" style="margin:10px">Find Another Place <mat-icon>search</mat-icon>  </button>
+<div #barChart id="bar-chart" (window:resize)="onResize($event)" style="height:100%;width: 80%;margin:10%"></div>
+<div #lineChart id="line-chart" (window:resize)="onResize($event)" style="height:100%;width: 80%;margin:10%"></div>
+
+</div>
