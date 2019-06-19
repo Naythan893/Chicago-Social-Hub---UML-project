@@ -97,7 +97,7 @@ const routes: Routes = [
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-    AgmCoreModule.forRoot({apiKey: 'AIzaSyDDfxLtRc-41Q_fBV8pJ3gfXH-VmkWz7Hg'}),
+    AgmCoreModule.forRoot({apiKey: '///Your KEy here'}),
     FormsModule,
     NgbModule
   ],
